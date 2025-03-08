@@ -1,4 +1,4 @@
-dateModified: 1741424741
+dateModified: 1741434401
 elementSources:
   craft\elements\Entry:
     -
@@ -223,6 +223,48 @@ plugins:
     enabled: true
     licenseKey: 94NLKEUIKBYNU02MLTXXNUA2
     schemaVersion: 1.0.0
+  image-resizer:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      assetSourceSettings:
+        1:
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - imageWidth
+              - ''
+            -
+              - imageHeight
+              - ''
+            -
+              - imageQuality
+              - ''
+        2:
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - imageWidth
+              - ''
+            -
+              - imageHeight
+              - ''
+            -
+              - imageQuality
+              - ''
+      enabled: true
+      imageHeight: 1600
+      imageQuality: 100
+      imageWidth: 1920
+      nonDestructiveCrop: false
+      nonDestructiveResize: false
+      skipLarger: true
+      useGlobalSettings: true
   knock-knock:
     edition: standard
     enabled: true
