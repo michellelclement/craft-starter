@@ -1,0 +1,13 @@
+/.env
+/.env-production
+/.idea
+/vendor
+.DS_Store
+/node_modules
+/public/imager/
+/translations/
+/public/uploads/
+/public/guide/
+*.sql
+*.bak
+/web/assets/cpresources/
