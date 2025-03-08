@@ -1,4 +1,4 @@
-dateModified: 1741434401
+dateModified: 1741437524
 elementSources:
   craft\elements\Entry:
     -
@@ -101,6 +101,7 @@ meta:
     6adad598-392d-4158-9400-8f90f7fe1fb0: 'Section Subtitle' # Section Subtitle
     6f74be98-1b1b-470e-a96a-727b01e0b225: 'Video Upload' # Video Upload
     7bf7da79-8f7d-4a1b-8129-121b24c0d99b: Image # Image
+    7f2c38ad-d507-4579-80c0-dccf35e18695: Navigation # Navigation
     8a60bb9d-8e34-4487-b809-65134adc6fa1: Padding # Padding
     8c583e9a-a56d-486d-8550-e7eae61c8088: Slides # Slides
     9c12e5ad-18e9-498f-bf50-489513409007: News # News
@@ -156,6 +157,7 @@ meta:
     ab8abc7e-2a4d-4858-98ea-9a6954a434da: Hero # Hero
     b2f53aa5-81a3-466c-af2d-e30dab4ed3d8: Image # Image
     b4d947dc-370e-4404-807b-b165534a1503: 'Basic Hero' # Basic Hero
+    b7d5cdf7-0854-4781-95de-16959a0deb77: Footer # Footer
     b9d8d694-0313-4709-a12e-06b36b2333c7: Simple # Simple
     b9fdef79-5b63-4932-a9aa-8d18f937e6d9: Français # Français
     b312d78c-b490-46da-aeff-70a1be5a5505: 'Error 404' # Error 404
@@ -277,6 +279,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: EJJUKJUU4MRNOGDKCF366ZNE
+    schemaVersion: 2.0.7
   retcon:
     edition: standard
     enabled: true
