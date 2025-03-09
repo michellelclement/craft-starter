@@ -90,7 +90,6 @@
     "intersection-observer": "^0.5.1",
     "laravel-mix": "^6.0.31",
     "laravel-mix-banner": "^0.1.4",
-    "laravel-mix-criticalcss": "^1.0.1",
     "laravel-mix-imagemin": "^1.0.3",
     "laravel-mix-tailwind": "^0.1.0",
     "lazysizes": "^2.0.6",
@@ -121,6 +120,7 @@
     "es6-promise": "^4.2.6",
     "hover.css": "^2.3.2",
     "instantsearch.js": "2.10.4",
+    "laravel-mix-criticalcss": "^1.0.2",
     "plyr": "^3.7.8",
     "swiper": "^8.0.7"
   },

@@ -11,3 +11,7 @@
 *.sql
 *.bak
 /web/assets/cpresources/
+
+# Ignore SSL certificates
+craft-starter.ddev.site-key.pem
+craft-starter.ddev.site.pem
