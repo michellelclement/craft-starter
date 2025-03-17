@@ -15,3 +15,7 @@
 # Ignore SSL certificates
 craft-starter.ddev.site-key.pem
 craft-starter.ddev.site.pem
+/tmp/certs/
+*.pem
+*.key
+*.crt

@@ -108,8 +108,8 @@ mix.browserSync({
     },
   },
   https: {
-    key: homedir + "/tmp/craft-starter.key",
-    cert: homedir + "/tmp/craft-starter.crt",
+    key: '/Users/michelleclement/tmp/certs/craft-starter.key',
+    cert: '/Users/michelleclement/tmp/certs/craft-starter.crt'
   },
   files: [
     "src/css/*.css",
